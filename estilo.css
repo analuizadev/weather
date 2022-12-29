@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: linear-gradient(188deg, #5956ee 0%, #8dd0f5 100%);
+    font-family: 'Alexandria', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.hide{
+    display: none;
+}
+
+article{
+    background-color: #5c54ed;
+    box-shadow: rgba(0,0,0, .24) 0px 3px 0px;
+    border-radius: 1rem;
+    color: white;
+    padding: 2rem;
+}
+#pesquisa label{
+    font-size: 19px;
+    font-weight: bolder;
+}
+
+#pesquisa #flex{
+    display: flex;
+    margin-top: 1rem;
+}
+
+#pesquisa input{
+    border-radius: 1rem;
+    text-indent: 10px;
+    border: none;
+    padding: .8rem;
+    flex: 1;
+}
+
+#pesquisa button{
+    width: 40px;
+    height: 40px;
+    color: white;
+    background-color: #8dd0f5;
+    border-radius: 100%;
+    cursor: pointer;
+    border: none;
+    padding: .8rem;
+    margin-left: 8px;
+}
+
+#pesquisa button:hover{
+    color: #6d2aff;
+}
+
+#weather-data{
+    border-top: 1px solid white;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+#weather-data h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.6rem;
+
+}
+
+#weather-data h2 i{
+    font-size: 1rem;
+}
+
+#weather-data span{
+    margin: 0.6rem;
+}
+
+#country{
+    height: 35px;
+}
+
+#description-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.6rem 0;
+}
+
+#description{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#details-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#details-container #umidity{
+    border-right: 1px solid #fff;
+    margin: 0.6rem;
+    padding: 0.6rem;
+}
